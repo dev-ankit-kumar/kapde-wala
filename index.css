@@ -453,6 +453,8 @@ img {vertical-align: middle;}
   width: 100%;
   gap: 6rem;
   flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 @media(max-width:800px){
@@ -460,7 +462,15 @@ img {vertical-align: middle;}
     padding: 0px;
     padding-left: 40px;
     gap: 0rem;
-
+    font-size: 10px;
+  }
+  .have_question{
+    gap: 0rem;
+    
+  }
+  .links{
+    gap: 0rem;
+    width: 300px;
   }
 }
 
@@ -468,7 +478,7 @@ img {vertical-align: middle;}
 .have_question{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   width: 300px;
 }
 
@@ -476,18 +486,18 @@ img {vertical-align: middle;}
   display: flex;
   flex-direction: column;
  width: 200px;
- gap: 2rem;
+ gap: 1rem;
 }
 
 .blog1{
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
   
 .links{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 .linkstags a
 
