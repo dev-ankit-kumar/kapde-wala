@@ -289,6 +289,9 @@ body{
     
 
   }
+  .para2 p{
+    font-size: 10px;
+  }
   .menu{
     width: 30%;
   }
