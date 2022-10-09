@@ -455,6 +455,16 @@ img {vertical-align: middle;}
   flex-wrap: wrap;
 }
 
+@media(max-width:800px){
+  .pagefooter{
+    padding: 0px;
+    padding-left: 40px;
+    gap: 0rem;
+
+  }
+}
+
+
 .have_question{
   display: flex;
   flex-direction: column;
